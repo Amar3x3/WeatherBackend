@@ -106,5 +106,5 @@ app.get('/api/weather/daily-summary', async (req, res) => {
 });
 
 // Start Server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORTT = process.env.PORT || 5000;
+app.listen(PORTT, () => console.log(`Server running on port ${PORTT}`));
